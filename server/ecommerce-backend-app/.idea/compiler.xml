@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="payment-service" />
+        <module name="inventory-service" />
+        <module name="product-service" />
+        <module name="common-utils" />
+        <module name="app-starter" />
+        <module name="user-service" />
+        <module name="order-service" />
+        <module name="notification-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-service" target="17" />
+      <module name="cart-service" target="17" />
+      <module name="config-server" target="17" />
+      <module name="config-service" target="17" />
+      <module name="domain-core" target="17" />
+      <module name="ecom-app-boot" target="17" />
+      <module name="ecom-common" target="17" />
+      <module name="repository-core" target="17" />
+      <module name="security-service" target="17" />
+      <module name="service-core" target="17" />
+      <module name="shipping-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-service" options="-parameters" />
+      <module name="app-starter" options="-parameters" />
+      <module name="cart-service" options="-parameters" />
+      <module name="common-utils" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="domain-core" options="" />
+      <module name="ecommerce-backend-app" options="-parameters" />
+      <module name="inventory-service" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="product-service" options="-parameters" />
+      <module name="repository-core" options="" />
+      <module name="security-service" options="-parameters" />
+      <module name="service-core" options="" />
+      <module name="shipping-service" options="" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
